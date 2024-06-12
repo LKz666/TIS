@@ -1,0 +1,37 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(black, rgb(58, 58, 58), black);
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        & img{
+            height: 150px;
+            width: 175px;
+        }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+        & p{
+            color: white;
+        }
+
+        & .line{
+            border: solid 1px white;
+            width: 450px;
+        }
+
+        & a{
+            color: white;
+        }
+}

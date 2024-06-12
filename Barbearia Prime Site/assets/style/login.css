@@ -1,0 +1,51 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+    padding: 20px;
+
+    & .login {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 25%;
+        height: 65%;
+        background-color: white;
+        border-radius: 55px;
+        gap: 15px;
+
+        & h2 {
+            background-color: white;
+        }
+
+        & input {
+            height: 4%;
+            width: 50%;
+            border-radius: 25px;
+            border: solid 1px gray;
+            padding: 7px;
+            font-size: 15px;
+        }
+
+        & .join {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-decoration: none;
+            border: solid 1px black;
+            background-color: black;
+            height: 4%;
+            width: 50%;
+            border-radius: 25px;
+            padding: 7px;
+
+        }
+
+        & .create{
+            color: black;
+        }
+    }
+}
