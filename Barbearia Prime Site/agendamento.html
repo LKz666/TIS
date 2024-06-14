@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Calendario
+    </title>
+    <link rel="stylesheet" href="assets/style/agendamento.css">
+</head>
+<header>
+    <div class="interface">
+        <div class="logo">
+            <a href="main.html">
+                <img src="assets/image/logo.png" alt="Logo">
+            </a>
+        </div>
+        <nav class="menu-desktop">
+            <ul>
+                <li><a href="#">Barbeiros</a></li>
+                <li><a href="https://chat.whatsapp.com/Fo8CmZjw3XiC8lZCc8bG0m">Contato</a></li>
+                <li><a href="agendamento.html">Agendamento</a></li>
+            </ul>
+        </nav>
+        <div class="btn-contato">
+            <a href="sing-up.html">
+                <button>Logout</button>
+            </a>
+        </div>
+    </div>
+</header>
+
+<body class="light">
+
+    <div class="calendar">
+        <div class="calendar-header">
+            <span class="month-picker" id="month-picker">Fevereiro</span>
+            <div class="year-picker">
+                <span class="year-change" id="prev-year">
+                    <pre><</pre>
+                </span>
+                <span id="year">2021</span>
+                <span class="year-change" id="next-year">
+                    <pre>></pre>
+                </span>
+            </div>
+        </div>
+        <div class="calendar-body">
+            <div class="calendar-week-day">
+                <div>Dom</div>
+                <div>Seg</div>
+                <div>Ter</div>
+                <div>Qua</div>
+                <div>Qui</div>
+                <div>Sex</div>
+                <div>Sáb</div>
+            </div>
+            <div class="calendar-days"></div>
+        </div>
+        <div class="calendar-footer">
+            <div class="toggle">
+               
+
+            </div>
+        </div>
+        <div class="month-list"></div>
+    </div>
+
+    <script src="agendamento.js "></script>
+</body>
+
+</html>
